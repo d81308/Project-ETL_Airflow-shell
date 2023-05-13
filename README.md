@@ -4,11 +4,11 @@
 * We use shell scripts to complete the extraction, transformation, and loading processes, and use the airflow tool to schedule these shell scripts. Our goal is to create an efficient and stable ETL system to help businesses better manage and analyze data, leading to more informed business decisions.
 
 ## Our program uses the following code to complete data processing:
-Download: We use wget to download files, tar to extract compressed files, and rm to delete files.
-Extract: We use echo to output a string, awk to parse TSV-formatted data, and the -F parameter to specify the delimiter.
-TSV abnormal file: We use cat to concatenate files, tr to convert special characters to spaces, awk to process data, and grep -o to retain only matches.
-Merge: We use paste -d to merge multiple files and the -d parameter to specify the delimiter.
-Transform: We use tr to perform data transformation, such as converting lowercase letters to uppercase letters.
+* Download: We use wget to download files, tar to extract compressed files, and rm to delete files.
+* Extract: We use echo to output a string, awk to parse TSV-formatted data, and the -F parameter to specify the delimiter.
+* TSV abnormal file: We use cat to concatenate files, tr to convert special characters to spaces, awk to process data, and grep -o to retain only matches.
+* Merge: We use paste -d to merge multiple files and the -d parameter to specify the delimiter.
+* Transform: We use tr to perform data transformation, such as converting lowercase letters to uppercase letters.
 
 
 ## Issue: tsv file abnormal
