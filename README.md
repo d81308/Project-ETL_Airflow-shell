@@ -22,3 +22,6 @@ We can use the following steps to address the TSV file conversion issue:
 * Use grep for value extraction, ensuring that the desired value format is specified.
 * Output the file in CSV format.
 Through this clever method, we successfully solved the TSV file conversion issue and were able to merge the files smoothly.
+
+## Airflow
+We use Airflow to set up DAG and pipeline to ensure that the ETL process runs in order and executes automatically when needed. Through these settings, we can also easily monitor and report the progress and results of the pipeline.
